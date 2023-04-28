@@ -45,16 +45,16 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-7xl font-playfair z-10 text-center md:text-start">
-            Cyrus {""}
+          <p className="text-7xl font-ubuntu z-10 text-center md:text-start">
+            CYRUS {""}
             <span
-              className="text-7xl font-playfair z-10 text-center md:text-start"
+              className="text-7xl font-ubuntu z-10 text-center md:text-start"
             >
-              Javadi
+              JAVADI
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-md text-center md:text-start">
+          <p className="mt-10 mb-7 text-lg text-center md:text-start">
             Financial management consultant looking to further pursue his passion
             for corporate level finance and the financial markets.
           </p>
@@ -73,8 +73,8 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-greenblue text-white rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-yellow transition duration-500"
+            className="bg-yellow text-black rounded-sm py-3 px-7 font-semibold
+              hover:bg-yellow hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >

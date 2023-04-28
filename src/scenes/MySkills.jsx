@@ -20,12 +20,11 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-yellow">SKILLS</span>
+            MY <span className="text-yellow">EXPERTISE</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Skills I have managed to accrue throughout my
-            time in the realm of corporate finance.
+            Skills I have managed to accrue throughout my career thus far.
           </p>
         </motion.div>
 
@@ -33,16 +32,16 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-yellow before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-yellow before:z-[-1] before:rounded-t-[20px] before:rounded-b-[20px]"
             >
               <img
                 alt="skills"
-                className="z-10"
-                src="assets/download.jpg"
+                className="rounded-t-[20px] rounded-b-[20px] z-10"
+                src="assets/financial-consulting-firm.jpg"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="assets/download.jpg" />
+            <img alt="skills" className="z-10" src="assets/financial-consulting-firm.jpg" />
           )}
         </div>
       </div>
@@ -65,15 +64,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Capital Consulting
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Worked with several high profile private and publicly listed clients, including a Fortune 40 company.
-            Served as a financial educator at a previous employer that recently went public on the
-            NASDAQ. Successfully doubled a previous employers net revenue in less than 1 year.
+            Worked with several high profile corporate clients, including a Fortune 40 company.
+            Certified as a Microsoft Excel expert. Youngest employee to become certified
+            as an Oracle Narrative Reporting Implementer.
           </p>
         </motion.div>
 
@@ -93,16 +92,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Financial Markets
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Graduated with a B.S. degree with a concentration in Finance in 3 years.
-            Certified as a Microsoft Excel expert. Youngest employee to obtain
-            certification as an Oracle Narrative Reporting Implementer.
-            Recent real estate agent.
+            Graduated with a B.S. degree in Finance within 3 years. Served as a financial educator 
+            with a previous employer that recently went public on the NASDAQ, lecturing about 
+            financial modeling, technical analyses, and fundamental analyses.
           </p>
         </motion.div>
         {/* INTERESTS */}
@@ -121,14 +119,15 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Real Estate
               </p>
             </div>
-            <div className="w-1/2 md:w-1/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-1/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Blockchain technologies connoseur. Technical and financial analyzer.
-            Long term real estate investor.
+            Licensed real estate agent with over 150 hours of training with over five
+            closed deals in less than one year of being licensed. Experienced with
+            running a real estate investment company with over 10 employees.
           </p>
         </motion.div>
       </div>

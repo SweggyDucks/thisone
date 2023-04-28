@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          <img src="../assets/email-icon-vector.png" alt="contact" />
         </motion.div>
 
         <motion.div
@@ -127,7 +127,7 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-gradient-greenblue font-semibold text-white mt-5 hover:text-yellow transition duration-500"
+              className="p-5 bg-yellow font-semibold text-black mt-5 hover:text-white transition duration-500"
               type="submit"
             >
               SEND MESSAGE

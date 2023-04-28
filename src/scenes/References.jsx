@@ -30,7 +30,7 @@ const References = () => {
       {/* REFERENCESS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-gradient-black2 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 rounded-t-[10px] rounded-b-[10px]
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference1"
           initial="hidden"
           whileInView="visible"
@@ -43,12 +43,15 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Cyrus always goes out of his way to help those around him. He is patient and a great leader.
+            Cyrus goes out of his way to help those around him. He is a leader in the workplace.
+          </p>
+          <p className="text-center text-xl font-semibold">
+            - Thomas R.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-gradient-black2 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 rounded-t-[10px] rounded-b-[10px]
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference2"
           initial="hidden"
           whileInView="visible"
@@ -61,12 +64,15 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          He is an extremely hard worker, creative minded individual, and does not like to dissapoint.
+          He is a hard worker, creative minded individual, and always gets the job done.
+          </p>
+          <p className="text-center text-xl font-semibold">
+            - Todd K.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-gradient-black2 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 rounded-t-[10px] rounded-b-[10px]
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference3"
           initial="hidden"
           whileInView="visible"
@@ -79,8 +85,10 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Cyrus is ALWAYS willing to learn. He never quits,
-            and tends to pick up new skills quickly.
+            Cyrus is always willing to learn. He tends to pick up new skills very quickly.
+          </p>
+          <p className="text-center text-xl font-semibold">
+            - Ali J.
           </p>
         </motion.div>
       </div>

@@ -10,19 +10,24 @@ module.exports = {
         red: "#DC4492",
         yellow: "#FDCC49",
         grey: "#ededed",
+        green: "#70FB7C",
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
       },
       backgroundImage: (theme) => ({
+        "gradient-black2":
+          "linear-gradient(125deg, #232323, #0B0B0B)",
+
         "gradient-greenblue":
           "linear-gradient(125deg, #14D4FF, #474747)",
 
-        "gradient-rainblue":
-          "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+        "gradient-blackish":
+          "linear-gradient(145deg, #22294B, #0B0B0B)",
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         opensans: ["Open Sans", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
       content: {
         brush: "url('./assets/brush.png')",
