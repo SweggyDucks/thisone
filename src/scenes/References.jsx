@@ -1,9 +1,9 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
-const Testimonials = () => {
+const References = () => {
   return (
-    <section id="testimonials" className="pt-32 pb-16">
+    <section id="references" className="pt-32 pb-16">
       {/* HEADING */}
       <motion.div
         className="md:w-1/3 text-center md:text-left"
@@ -16,21 +16,22 @@ const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-red">
-          TESTIMONIALS
+        <p className="font-playfair font-semibold text-4xl mb-5">
+          MY        
+          <span className="text-yellow"> REFERENCES</span>
         </p>
-        <LineGradient width="mx-auto w-2/5" />
+        <LineGradient width="w-2/5" />
         <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+          Here's what my previous employers, colleagues and peers have to say
+          about my work.
         </p>
       </motion.div>
 
-      {/* TESTIMONIALS */}
+      {/* REFERENCESS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference1"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -42,13 +43,13 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+            Cyrus always goes out of his way to help those around him. He is patient and a great leader.
           </p>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -60,14 +61,13 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+          He is an extremely hard worker, creative minded individual, and does not like to dissapoint.
           </p>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -79,7 +79,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+            Cyrus is ALWAYS willing to learn. He never quits,
+            and tends to pick up new skills quickly.
           </p>
         </motion.div>
       </div>
@@ -87,4 +88,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default References;

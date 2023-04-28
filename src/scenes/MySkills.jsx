@@ -20,12 +20,12 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            MY <span className="text-yellow">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            Skills I have managed to accrue throughout my
+            time in the realm of corporate finance.
           </p>
         </motion.div>
 
@@ -33,16 +33,16 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-yellow before:z-[-1]"
             >
               <img
                 alt="skills"
                 className="z-10"
-                src="assets/skills-image.png"
+                src="assets/download.jpg"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="assets/skills-image.png" />
+            <img alt="skills" className="z-10" src="assets/download.jpg" />
           )}
         </div>
       </div>
@@ -68,16 +68,16 @@ const MySkills = () => {
                 Experience
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-1/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            Worked with several high profile private and publicly listed clients, including a Fortune 40 company.
+            Served as a financial educator at a previous employer that recently went public on the
+            NASDAQ. Successfully doubled a previous employers net revenue in less than 1 year.
           </p>
         </motion.div>
 
-        {/* INNOVATIVE */}
+        {/* CERTIFICATIONS */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -96,16 +96,16 @@ const MySkills = () => {
                 Innovative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-1/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            Graduated with a B.S. degree with a concentration in Finance in 3 years.
+            Certified as a Microsoft Excel expert. Youngest employee to obtain
+            certification as an Oracle Narrative Reporting Implementer.
+            Recent real estate agent.
           </p>
         </motion.div>
-        {/* IMAGINATIVE */}
+        {/* INTERESTS */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -124,13 +124,11 @@ const MySkills = () => {
                 Imaginative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-1/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            Blockchain technologies connoseur. Technical and financial analyzer.
+            Long term real estate investor.
           </p>
         </motion.div>
       </div>

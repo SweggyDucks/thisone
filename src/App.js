@@ -8,7 +8,7 @@ import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
-import Testimonials from "./scenes/Testimonials";
+import References from "./scenes/References";
 import { motion } from "framer-motion";
 
 function App() {
@@ -75,9 +75,9 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("testimonials")}
+          onViewportEnter={() => setSelectedPage("references")}
         >
-          <Testimonials />
+          <References />
         </motion.div>
       </div>
       <LineGradient />

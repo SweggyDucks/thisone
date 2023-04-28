@@ -14,8 +14,8 @@ module.exports = {
         "opaque-black": "rgba(0,0,0,0.35)",
       },
       backgroundImage: (theme) => ({
-        "gradient-rainbow":
-          "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
+        "gradient-greenblue":
+          "linear-gradient(125deg, #14D4FF, #474747)",
 
         "gradient-rainblue":
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
@@ -26,9 +26,9 @@ module.exports = {
       },
       content: {
         brush: "url('./assets/brush.png')",
-        person1: "url('./assets/person-1.png')",
-        person2: "url('./assets/person-2.png')",
-        person3: "url('./assets/person-3.png')",
+        reference1: "url('./assets/reference1.jpg')",
+        reference2: "url('./assets/reference2.jpg')",
+        reference3: "url('./assets/reference3.jpg')",
       },
     },
     screens: {

@@ -14,20 +14,20 @@ const Landing = ({ setSelectedPage }) => {
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 before:rounded-t-[20px] before:rounded-b-[20px]
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-yellow before:z-[-1]"
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
+              src="assets/HEADSHOT.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
+            src="assets/HEADSHOT.png"
           />
         )}
       </div>
@@ -45,19 +45,18 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+          <p className="text-7xl font-playfair z-10 text-center md:text-start">
+            Cyrus {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              className="text-7xl font-playfair z-10 text-center md:text-start"
             >
-              Esper
+              Javadi
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          <p className="mt-10 mb-7 text-md text-center md:text-start">
+            Financial management consultant looking to further pursue his passion
+            for corporate level finance and the financial markets.
           </p>
         </motion.div>
 
@@ -74,21 +73,12 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className="bg-gradient-greenblue text-white rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-yellow transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             Contact Me
-          </AnchorLink>
-          <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
-            </div>
           </AnchorLink>
         </motion.div>
 
