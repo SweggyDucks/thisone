@@ -70,9 +70,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-1/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Worked with several high profile corporate clients, including a Fortune 40 company.
-            Certified as a Microsoft Excel expert. Youngest employee to become certified
-            as an Oracle Narrative Reporting Implementer.
+            I have collaborated with a number of esteemed corporate clientele, including Fortune 50 enterprises, thereby honing my expertise in handling diverse and complex business challenges. Additionally, I am a certified Microsoft Excel professional and have the distinction of being the youngest employee to attain certification as an Oracle Narrative Reporting Implementer.
           </p>
         </motion.div>
 
@@ -98,9 +96,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-1/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Graduated with a B.S. degree in Finance within 3 years. Served as a financial educator 
-            with a previous employer that recently went public on the NASDAQ, lecturing about 
-            financial modeling, technical analyses, and fundamental analyses.
+          I completed my undergraduate studies at a top 100 business school, earning a Bachelor of Science degree in Finance within a remarkably short span of three years. I previously held a position as a financial educator at a company that recently underwent an IPO on the NASDAQ. In this role, I delivered lectures on a range of topics, including financial modeling, technical analyses, and fundamental analyses, thereby sharpening my communication and instructional abilities.
           </p>
         </motion.div>
         {/* INTERESTS */}
@@ -125,9 +121,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-1/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Licensed real estate agent with over 150 hours of training with over five
-            closed deals in less than one year of being licensed. Experienced with
-            running a real estate investment company with over 10 employees.
+          As a licensed real estate agent, I have completed 150 hours of extensive training, which has contributed to my ability to successfully close five deals within the first year of being licensed. Moreover, I have demonstrated my leadership and managerial skills by running a real estate investment company with a team of more than 10 employees, thus gaining valuable experience in real estate operations and personnel management.
           </p>
         </motion.div>
       </div>
