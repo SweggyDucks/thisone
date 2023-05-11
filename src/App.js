@@ -53,7 +53,7 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
-          margin="0 0 -150px 0"
+          margin="0 0 -50px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("skills")}
         >
