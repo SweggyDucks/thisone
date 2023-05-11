@@ -121,7 +121,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-1/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          As a licensed real estate agent, I have completed 150 hours of extensive training. Moreover, I have demonstrated my leadership and managerial skills by running a real estate investment company with a team of 11 employees, thus gaining valuable experience in real estate operations and personnel management.
+          As a licensed real estate agent, I have completed 150 hours of extensive training, which has contributed to my ability to close two deals this year. Moreover, I have demonstrated my leadership and managerial skills by running a real estate investment company with a team of 11 employees, thus gaining valuable experience in real estate operations and personnel management.
           </p>
         </motion.div>
       </div>
