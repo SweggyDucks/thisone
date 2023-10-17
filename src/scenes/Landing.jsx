@@ -27,7 +27,7 @@ const Landing = ({ setSelectedPage }) => {
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
-            src="assets/HEADSHOT.png"
+            src="assets/tryiton_91dda32b-b0fb-4d47-a1fe-87b757221242.png"
           />
         )}
       </div>
