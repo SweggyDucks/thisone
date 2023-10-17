@@ -19,15 +19,15 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="z-10 w-full rounded-t-[20px] rounded-b-[20px]"
-              src="assets/newheadshot.png"
+              className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
+              src="assets/HEADSHOT.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full rounded-t-[20px] rounded-b-[20px]"
-            src="assets/newheadshot.png"
+            className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
+            src="assets/HEADSHOT.png"
           />
         )}
       </div>
