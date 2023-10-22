@@ -22,7 +22,8 @@ const References = () => {
         </p>
         <LineGradient width="w-2/5" />
         <p className="mt-10">
-          Here's what my previous employers and colleagues have to say about my work.
+          Here's what my previous employers and colleagues have to say 
+          about my work.
         </p>
       </motion.div>
 
