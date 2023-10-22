@@ -24,7 +24,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Skills I have managed to accrue throughout my career thus far.
+            Here are some key skills relevant to my line of work that I have managed to accrue 
+            throughout my career thus far:
           </p>
         </motion.div>
 
@@ -64,13 +65,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Capital Consulting
+                Capital Planning
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I have collaborated with a number of esteemed corporate clientele, including Fortune 50 enterprises, on improving their capital planning systems. These experiences honed my expertise in handling diverse and complex business challenges. Additionally, I am a certified Microsoft Excel professional and have the distinction of being the youngest employee to attain certification as an Oracle Narrative Reporting Implementer.
+          In my capacity as a capital planner, I excel at devising comprehensive financial strategies that align with clients' objectives. I leverage my expertise to create detailed financial plans, optimizing investments and asset allocation to help clients achieve their long-term financial goals with precision and foresight.
           </p>
         </motion.div>
 
@@ -90,13 +91,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Financial Markets
+                Financial Modeling
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          I completed my undergraduate studies at a top 100 business school, earning a Bachelor of Science degree in Finance within a remarkably short span of three years. I previously held a position as a financial educator at a company that recently underwent an IPO on the NASDAQ. In this role, I sharpened my expertise in financial modeling, technical analyses, and fundamental analyses.
+          As someone with expertise in financial modeling, I have the ability to construct intricate financial models that simulate various scenarios and predict outcomes. I use my knowledge of financial data and mathematical tools to provide clients with insights and forecasts that guide their strategic decision-making, ultimately helping them achieve financial success.
           </p>
         </motion.div>
         {/* INTERESTS */}
@@ -115,13 +116,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Real Estate
+                Management Consulting
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          As a licensed real estate agent, I have completed 150 hours of extensive training, which has contributed to my ability to close two deals this year. Moreover, I have demonstrated my leadership and managerial skills by running a real estate investment company with a team of 11 employees, thus gaining valuable experience in real estate operations and personnel management.
+          My proficiency in management consulting empowers me to work closely with organizations within various industries, identifying areas of improvement, developing effective strategies, and enhancing operational efficiency. I leverage my experience to provide insightful recommendations and support, enabling my clients to overcome challenges and achieve their business objectives.
           </p>
         </motion.div>
       </div>

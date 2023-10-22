@@ -22,8 +22,7 @@ const References = () => {
         </p>
         <LineGradient width="w-2/5" />
         <p className="mt-10">
-          Here's what my previous employers, colleagues and peers have to say
-          about my work.
+          Here's what my previous employers and colleagues have to say about my work.
         </p>
       </motion.div>
 
@@ -43,7 +42,7 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Cyrus goes out of his way to help those around him. He is a leader in the workplace.
+            Cyrus is a leader...he goes out of his way to help and even train those around him.
           </p>
           <p className="text-center text-xl font-semibold">
             - Thomas R.
@@ -64,7 +63,7 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          He is a hard worker, creative minded individual, and always gets the job done.
+            Clients love him for his work ethic, presentational abilities and personability.
           </p>
           <p className="text-center text-xl font-semibold">
             - Todd K.
@@ -85,7 +84,7 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Cyrus is always willing to learn. He tends to pick up new skills very quickly.
+            He is an extremely hard worker, masters new skills quickly, and is always in high spirits.
           </p>
           <p className="text-center text-xl font-semibold">
             - Ali J.

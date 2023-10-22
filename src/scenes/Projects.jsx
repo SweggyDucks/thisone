@@ -71,19 +71,19 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <Project title="Project 1" subtitle="Assisted their corporate division design a capital portfolio planning solution to execute throughout the entire company. Designed data integrations, financial models, and financial reports."/>
-          <Project title="Project 2" subtitle="Assisted with a capital portfolio planning solution to be used throughout their company. Solution was geared towards supporting multi-year forecasting, as well as calculating and storing ETC and EAT."/>
-          <Project title="Project 3" subtitle="Drafted several reports and helped classify the client's master data and data within their Oracle application. Drafted financial reports contain YOY gross and net revenue."/>
+          <Project title="Project 1" subtitle="Constructed a $3M, Oracle based, capital planning application for Albertson's Companies that integrates CAPEX modeling systems, P&L reporting, and financial reporting"/>
+          <Project title="Project 2" subtitle="Architecting complex data integrations, executive level financial reports, and a multi pillar project accounting system. Assisted with product delivery and client training"/>
+          <Project title="Project 3" subtitle="Authored numerous financial reports encompassing YOY gross and net revenue analysis. Played a pivotal role in categorizing the client's master data and data within their Oracle EPM system."/>
 
           {/* ROW 2 */}
-          <Project title="Project 4" subtitle="Served as an interim CFO while simultaneosly obtaining my B.S. in Finance. Led pitch deck presentations, obtain venture capital funding, and managed a team of over 30 employees. Efforts resulted in 6-figure net revenue."/>
-          <Project title="Project 5" subtitle="Worked within the client's Insurance division within the Oracle Planning application. Asisted with the development of their master data hierarchy structure, calc-script business rules, and ad-hoc forms. "/>
-          <Project title="Project 6" subtitle="Conducted individual company reports with comparable company analyses for clients. Drafted market research reports and industry analyses, used to formulate company investment decisions. Efforts resulted in a public listing on the NASDAQ."/>
+          <Project title="Project 4" subtitle="Performed ROI analyses of various corporate initiatives using industry benchmarks, survey data, and market sizing of potential industry verticals for a company investor deck, which raised further financing from outside investors."/>
+          <Project title="Project 5" subtitle="Collaborated within the client's Insurance division, operating within the Oracle Planning application. Cntributed to the development of their master data hierarchy structure, the creation of calc-script business rules, and the customization of ad-hoc forms to enhance operational efficiency and data analysis capabilities. "/>
+          <Project title="Project 6" subtitle="Created schedules for capital expenditures, working capital, and debt instruments to accurately project company growth and future financial performance (2.5% increase in sales) which led to the creation of the company's financial forecast for its annual budget."/>
 
           {/* ROW 3 */}
-          <Project title="Project 7" subtitle="Worked with the $200 million, VC backed Web3 giant, Proof Inc. Developed a cryptographic code to be stored inside of NFC chips, providing immute verification of physical objects via the blockchain."/>
-          <Project title="Project 8" subtitle="Utilized my recently obtained real estate license to assist a real estate investment company obtain deals via writing offers to customers, negotiating on behalf of my clients, and performing CMA analyses on potential investments."/>
-          <Project title="Project 9" subtitle="Assisted with the development of their website as a lead developer. Served as a product manager, spearheading any graphic design and videography required to further display products."/>
+          <Project title="Project 7" subtitle="Undertook a pivotal initiative to enhance supply chain operations. This initiative involved a comprehensive overhaul of previous processes, resulting in the implementation of an advanced system. This system now ensures that items within the supply chain are equipped with the capability to generate and store an ECDSA secp256k1 asymmetric keypairs."/>
+          <Project title="Project 8" subtitle="Provided valuable support to a real estate investment company by crafting compelling offers to attract potential clients and conduct comprehensive Comparative Market Analysis assessments for potential investment opportunities."/>
+          <Project title="Project 9" subtitle="Utilized HTML and CSS to craft engaging web pages for the company. In addition, I assumed the role of lead developer, providing guidance and oversight to a group of fellow developers. Beyond web development, I actively supported their e-commerce sales pipeline and the creation of product photos."/>
         </motion.div>
       </div>
     </section>

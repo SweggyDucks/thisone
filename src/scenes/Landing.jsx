@@ -55,8 +55,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-lg text-center md:text-start">
-            Financial management consultant looking to further pursue his passion
-            for corporate level finance and the financial markets.
+          Experienced Corporate Capital Planning Management Consultant with 2 years of experience in 
+          financial planning, budgeting, forecasting, and capital structure.
           </p>
         </motion.div>
 
