@@ -20,14 +20,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
-              src="assets/1finalheadshot400.png"
+              src="assets/1finalheadshot400.jpg"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
-            src="assets/1finalheadshot400.png"
+            src="assets/1finalheadshot400.jpg"
           />
         )}
       </div>
