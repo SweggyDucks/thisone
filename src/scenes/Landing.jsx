@@ -20,14 +20,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
-              src="assets/1finalheadshot.png"
+              src="assets/1finalheadshot600.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[20px] rounded-b-[20px]"
-            src="assets/1finalheadshot.png"
+            src="assets/1finalheadshot600.png"
           />
         )}
       </div>
@@ -55,7 +55,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-lg text-center md:text-start">
-          Experienced Corporate Capital Planning Management Consultant with 2 years of experience in 
+          Experienced Oracle EPM Consultant with 2 years of experience in 
           financial planning, budgeting, forecasting, and capital structure.
           </p>
         </motion.div>
