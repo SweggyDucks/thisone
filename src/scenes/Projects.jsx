@@ -71,8 +71,8 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <Project title="Project 1" subtitle="Constructed a $3M, Oracle based, capital planning application for Albertson's Companies that integrates CAPEX modeling systems, P&L reporting, and financial reporting"/>
-          <Project title="Project 2" subtitle="Architecting complex data integrations, executive level financial reports, and a multi pillar project accounting system. Assisted with product delivery and client training"/>
+          <Project title="Project 1" subtitle="Architecting analytical sandboxes, interactive web forms, and financial statements for executives to evaluate capital requests prior to the merger between Albertsons Companies and Kroger."/>
+          <Project title="Project 2" subtitle="Leveraging Oracle EPM Planning to construct a capital lifecycle application that track projects from the capital request ideation stage to the in-service asset management stage."/>
           <Project title="Project 3" subtitle="Authored numerous financial reports encompassing YOY gross and net revenue analysis. Played a pivotal role in categorizing the client's master data and data within their Oracle EPM system."/>
 
           {/* ROW 2 */}
@@ -83,7 +83,7 @@ const Projects = () => {
           {/* ROW 3 */}
           <Project title="Project 7" subtitle="Undertook a pivotal initiative to enhance supply chain operations. This initiative involved a comprehensive overhaul of previous processes, resulting in the implementation of an advanced system. This system now ensures that items within the supply chain are equipped with the capability to generate and store an ECDSA secp256k1 asymmetric keypairs."/>
           <Project title="Project 8" subtitle="Provided valuable support to a real estate investment company by crafting compelling offers to attract potential clients and conduct comprehensive Comparative Market Analysis assessments for potential investment opportunities."/>
-          <Project title="Project 9" subtitle="Utilized HTML and CSS to craft engaging web pages for the company. In addition, I assumed the role of lead developer, providing guidance and oversight to a group of fellow developers. Beyond web development, I actively supported their e-commerce sales pipeline and the creation of product photos."/>
+          <Project title="Project 9" subtitle="Utilized Oracle EPM Planning to construct a capita lifecycle application. Heavily involved in the design/ideation phase of the project, as well as served a developer throughout the build phase of the project."/>
         </motion.div>
       </div>
     </section>

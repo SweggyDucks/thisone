@@ -52,7 +52,7 @@ const References = () => {
 
         <motion.div
           className="mx-auto relative bg-gradient-black2 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 rounded-t-[10px] rounded-b-[10px]
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference2"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference1"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -64,10 +64,10 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Clients love him for his work ethic, presentational abilities and personability.
+            Insert Text Here
           </p>
           <p className="text-center text-xl font-semibold">
-            - Todd K.
+            - ABC
           </p>
         </motion.div>
 
