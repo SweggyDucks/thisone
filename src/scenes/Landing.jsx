@@ -55,8 +55,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-lg text-center md:text-start">
-          Experienced Oracle EPM Consultant with 2 years of experience in 
-          financial planning, budgeting, forecasting, and capital structure.
+          Financial Analytics Consultant with an expertise in financial planning, 
+          budgeting, forecasting, and capital structure for corporations spanning across several industries.
           </p>
         </motion.div>
 

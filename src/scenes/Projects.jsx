@@ -71,8 +71,8 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <Project title="Project 1" subtitle="Architecting analytical sandboxes, interactive web forms, and financial statements for executives to evaluate capital requests prior to the merger between Albertsons Companies and Kroger."/>
-          <Project title="Project 2" subtitle="Leveraging Oracle EPM Planning to construct a capital lifecycle application that track projects from the capital request ideation stage to the in-service asset management stage."/>
+          <Project title="Project 1" subtitle="Creating a capital lifecycle planning application for Albertsons Companies that integrates their procure-to-pay systems, resulting in $79M savings per year previously allocated to overspent projects.."/>
+          <Project title="Project 2" subtitle="Devised 16 interactive, comprehensive pro forma financial statements tied to analytical sandboxes that predict future revenues, profits, cash flow, and gross margin."/>
           <Project title="Project 3" subtitle="Authored numerous financial reports encompassing YOY gross and net revenue analysis. Played a pivotal role in categorizing the client's master data and data within their Oracle EPM system."/>
 
           {/* ROW 2 */}
@@ -83,7 +83,7 @@ const Projects = () => {
           {/* ROW 3 */}
           <Project title="Project 7" subtitle="Undertook a pivotal initiative to enhance supply chain operations. This initiative involved a comprehensive overhaul of previous processes, resulting in the implementation of an advanced system. This system now ensures that items within the supply chain are equipped with the capability to generate and store an ECDSA secp256k1 asymmetric keypairs."/>
           <Project title="Project 8" subtitle="Provided valuable support to a real estate investment company by crafting compelling offers to attract potential clients and conduct comprehensive Comparative Market Analysis assessments for potential investment opportunities."/>
-          <Project title="Project 9" subtitle="Utilized Oracle EPM Planning to construct a capita lifecycle application. Heavily involved in the design/ideation phase of the project, as well as served a developer throughout the build phase of the project."/>
+          <Project title="Project 9" subtitle="Reduced load of executive reporting by 85% for McLane & Company by authoring various securitized internal and external financial reports containing interactive grids and charts, with point-of-view functionality.."/>
         </motion.div>
       </div>
     </section>

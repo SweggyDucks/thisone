@@ -43,7 +43,7 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Cyrus is a leader...he goes out of his way to help and even train those around him.
+            Cyrus is a leader...he is always in high spirits and collaborates well with his clients.
           </p>
           <p className="text-center text-xl font-semibold">
             - Thomas R.
@@ -52,7 +52,7 @@ const References = () => {
 
         <motion.div
           className="mx-auto relative bg-gradient-black2 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 rounded-t-[10px] rounded-b-[10px]
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference1"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-reference2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -64,10 +64,10 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Insert Text Here
+            One of the brightest consultants I have ever had the pleasure of working with.
           </p>
           <p className="text-center text-xl font-semibold">
-            - ABC
+            - Todd K.; Director @ Alithya
           </p>
         </motion.div>
 
@@ -85,10 +85,10 @@ const References = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            He is an extremely hard worker, masters new skills quickly, and is always in high spirits.
+            One of the hardest workers I have ever met; he masters new skills quickly, and is always willing to adapt.
           </p>
           <p className="text-center text-xl font-semibold">
-            - Ali J.
+            - Ali J.; CEO @ Cyron Inc.
           </p>
         </motion.div>
       </div>

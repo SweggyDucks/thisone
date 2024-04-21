@@ -65,13 +65,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Capital Planning
+                Financial Planning
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          In my capacity as a capital planner, I excel at devising comprehensive financial strategies that align with clients' objectives. I leverage my expertise to create detailed financial plans, optimizing investments and asset allocation to help clients achieve their long-term financial goals with precision and foresight.
+          In my capacity as a financial planner, I excel at devising comprehensive financial strategies that align with my clients' objectives. I leverage my expertise to create detailed financial plans, optimizing investment avenues and asset allocation to assist clients achieve their long-term financial goals with precision and foresight.
           </p>
         </motion.div>
 
@@ -91,13 +91,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Financial Modeling
+                Financial Analytics
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          As someone with expertise in financial modeling, I have the ability to construct intricate financial models that simulate various scenarios and predict outcomes. I use my knowledge of financial data and mathematical tools to provide clients with insights and forecasts that guide their strategic decision-making, ultimately helping them achieve financial success.
+          As someone with expertise in financial modeling, reporting, dashboarding, I have the ability to construct intricate financial models that simulate various scenarios and predict outcomes. I use my knowledge of financial data and mathematical tools to provide clients with visual representations of their  forecasts that will guide  strategic decision-making, ultimately achieving financial success.
           </p>
         </motion.div>
         {/* INTERESTS */}
@@ -116,13 +116,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Consulting
+                Management Consulting
               </p>
             </div>
             <div className="w-1/2 md:w-1/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          My proficiency in management consulting empowers me to work closely with organizations within various industries, identifying areas of improvement, developing effective strategies, and enhancing operational efficiency. I leverage my experience to provide insightful recommendations and support, enabling my clients to overcome challenges and achieve their business objectives.
+          My proficiency in management consulting empowers me to work closely with organizations of varying size within numerous industries, identifying areas of improvement, developing effective strategies, and enhancing operational efficiency. I leverage my experience to provide insightful recommendations and support, enabling my clients to overcome challenges and achieve their business objectives.
           </p>
         </motion.div>
       </div>
