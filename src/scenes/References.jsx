@@ -46,7 +46,7 @@ const References = () => {
             Cyrus is a leader...he is always in high spirits and collaborates well with his clients.
           </p>
           <p className="text-center text-xl font-semibold">
-            - Thomas R.
+            - Thomas R.; Manager @ Instrumental Inc.
           </p>
         </motion.div>
 
